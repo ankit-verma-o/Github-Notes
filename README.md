@@ -31,7 +31,7 @@ b) Save Installed Packages: Create a requirements.txt file to document the insta
 c) To uninstall all Python packages from your environment via the terminal, you can use the following methods based on your setup:
 
 - pip freeze | xargs pip uninstall -y
-- 
+
 Explanation:
 
 pip freeze lists all installed packages. xargs pip uninstall -y takes that list and uninstalls each package without asking for confirmation.
