@@ -108,6 +108,12 @@ b) Set Up the Environment Locally:
 - source venv/bin/activate
 - pip install -r requirements.txt
 
+c) To deactivate a virtual environment, follow these steps based on your operating system:
+
+Simply type the following command in your terminal or command prompt:
+- deactivate
+This command will deactivate the virtual environment and return you to the global Python environment.
+
 ### Optional: Use GitHub Actions for CI/CD
 Add a .github/workflows/python.yml File:
 
